@@ -1,0 +1,52 @@
+h3 {
+  padding: 0.5em;
+  color: #494949;
+  background: #fffaf4;  border-left: solid 5px #ffaf58;
+}
+
+.c-form-textarea {
+    display: block;
+    width: 25%;
+    height: 100%;
+    padding: 4px 16px;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 0 0 0 1px #ccc inset;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    resize: vertical;
+}
+
+.c-form-textarea:focus {
+    outline: 0;
+    box-shadow: 0 0 0 2px rgb(0, 206, 209) inset;
+}
+
+
+.c-form-submit-button {
+    display: inline-block;
+    width: 10%;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    background-color: #000;
+    color: rgb(0,191,255);
+    font-weight: bold;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+
+.c-form-submit-button:hover {
+    background-color:rgb(0,191,255) ;
+    color:#000;
+}
+
+.c-form-submit-button:focus {
+    outline: 0;
+    background-color: #000;
+    border: 2px solid rgb(30, 144, 255);
+}
